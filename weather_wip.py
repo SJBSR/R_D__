@@ -15,7 +15,7 @@ elif 55 < temperature < 70 and forecast == "sunny":
 elif 40 < temperature < 55 and forecast == "sunny":
     print("It's a little chilly outside, consider wearing a light jacket if you step out.")
 elif 55 < temperature < 70 and forecast == "sunny":
-    print("The weather today is moderate with a touch of clouds. A light sweater should be fine.")
+    print("The weather today is moderate without a cloud in the sky. A light sweater should be fine, but isn't needed.")
 elif 30 < temperature <= 50 and forecast == "sunny":
     print("The shining sun is a mirage to distract you from the freezing temp.")
 elif temperature > 95 and forcast == "cloudy":
