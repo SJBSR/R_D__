@@ -22,5 +22,5 @@ def func():
         ans += local_var * i
     return ans
 func()
-# End of better practice
+# End of better practice, improved performance. Not yet fully optimized.
 # Slightly better practice, but still not optimal as global variable is looked up once per function call

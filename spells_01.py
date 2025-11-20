@@ -24,4 +24,4 @@ efficient_spells = sorted(
 
 for s in efficient_spells:
     print(f'{s[0]}: {s[1]/s[2]:.2f}')
-# ...existing code...
+# thinking where to go from here

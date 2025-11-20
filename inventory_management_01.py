@@ -1,6 +1,6 @@
 # Inventory management
 
-inv = ["Sword", "Shield", "Health Potion"]
+inv = ["Sword", "Shield", "Health Potion", None, None]
 
 if all(inv):
     print("Inventory is full.")
