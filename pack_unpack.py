@@ -37,12 +37,3 @@ d = (1, 2)
 print(id(c))
 print(id(d))  # May be the same memory address
 
-# Not related to tuples, global variable being called inside a function !optimized!
-global_var = 10
-
-def func():
-    ans = 0
-    for i in range(1000):
-        ans += global_var * i
-    return ans
-func
