@@ -1,5 +1,5 @@
 # Simple graph plotting using matplotlib
-import matplotlib.pyplot as plt # pyright: ignore[reportMissingModuleSource]
+import matplotlib.pyplot as plt 
 
 x = [1, 2, 3, 4, 5]
 y = [0, 12, 5, 18 ,45]
